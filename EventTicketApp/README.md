@@ -61,7 +61,7 @@ Ensure you have the following installed:
    ```sh
    npx expo start
    ```
-   - Scan the QR code using **Expo Go** or run the app on an emulator.
+   - Type w and enter.
 
 ## Architecture & Design Patterns
 
