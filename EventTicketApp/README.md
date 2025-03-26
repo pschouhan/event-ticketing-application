@@ -29,25 +29,17 @@ Ensure you have the following installed:
 
 1. Clone the repository and navigate to the backend folder:
    ```sh
-   git clone https://github.com/yourusername/event-ticketing-app.git
    cd event-ticketing-app/backend
    ```
 2. Install dependencies:
    ```sh
    npm install
    ```
-3. Set up environment variables:
+3. Update `.env` with your PostgreSQL database credentials.
+  
+4. Seed the database with initial event data:
    ```sh
-   cp .env.example .env
-   ```
-   - Update `.env` with your PostgreSQL database credentials.
-4. Run database migrations:
-   ```sh
-   npx typeorm migration:run
-   ```
-5. Seed the database with initial event data:
-   ```sh
-   npm run seed
+   npx ts-node src/seed.ts
    ```
 6. Start the backend server:
    ```sh
