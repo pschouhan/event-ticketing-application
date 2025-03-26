@@ -35,9 +35,12 @@ Ensure you have the following installed:
    ```sh
    npm install
    ```
-3. Update `.env` with your PostgreSQL database credentials.
+
+3.Create Database with name `ticketing`
+
+4. Update `.env` with your PostgreSQL database credentials.
   
-4. Seed the database with initial event data:
+5. Seed the database with initial event data:
    ```sh
    npx ts-node src/seed.ts
    ```
